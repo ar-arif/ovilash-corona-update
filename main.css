@@ -7,6 +7,7 @@ html {
   width: 360px;
 }
 
+
 .poster-image {
   position: relative;
 }
@@ -26,15 +27,15 @@ html {
 }
 
 .cases-24 {
-  top: 309px;
+  top: 234px;
 }
 
 .deaths-24 {
-  top: 432px;
+  top: 357px;
 }
 
 .recovered-24 {
-  top: 550px;
+  top: 475px;
 }
 
 .Total-cases,
@@ -45,13 +46,13 @@ html {
 }
 
 .Total-cases {
-  top: 335px;
+  top: 260px;
 }
 
 .Total-deaths {
-  top: 433px;
+  top: 358px;
 }
 
 .Total-recovered {
-  top: 528px;
+  top: 453px;
 }
