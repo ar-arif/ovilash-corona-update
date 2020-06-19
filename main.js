@@ -31,7 +31,13 @@ function afterThat(data) {
 
   // edit value of corona updRate
   cases_24.innerText = todayCases;
-  deaths_24.innerText = todayDeaths;
+
+  deaths_24.innerText = new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    minimumFractionDigits: 0,
+  }).format(todayRecovered);
+
   recovered_24.innerText = todayRecovered;
 
   total_cases.innerText = totalCases;
@@ -47,4 +53,15 @@ function afterThat(data) {
   const currentDate = `${da}-${mo}-${ye}`;
 
   date.innerText = currentDate;
+
+  
+        let slice = deaths_24.innerText.slice(1);
+
+        deaths_24.innerText = slice;
+
+
+   
+  
 }
+
+
