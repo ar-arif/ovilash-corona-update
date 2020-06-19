@@ -25,15 +25,29 @@
 
 .cases-24{
     top: 309px;
-    font-size: 38px;
 }
 
 .deaths-24{
     top: 432px;
-    font-size: 38px;
 }
 
 .recovered-24{
     top: 550px;
-    font-size: 38px;
+}
+
+.Total-cases, .Total-deaths, .Total-recovered{
+    left: 217px;
+    font-size: 31px;
+}
+
+.Total-cases{
+    top: 335px;
+}
+
+.Total-deaths{
+    top: 433px;
+}
+
+.Total-recovered{
+    top: 528px;
 }
