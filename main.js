@@ -1,6 +1,6 @@
 async function fetchData() {
   let response = await fetch("https://api.covid19api.com/summary");
-  let data = response.json();
+  let data = await response.json();
 
   return data;
 }
@@ -37,5 +37,14 @@ function afterThat(data) {
   total_cases.innerText = totalCases;
   total_deaths.innerText = totalDeaths;
   total_recovered.innerText = totalRecovered;
-  
+
+  // Date
+  let date = document.getElementById("date");
+
+  const ye = new Intl.DateTimeFormat("en", { year: "numeric" }).format();
+  const mo = new Intl.DateTimeFormat("en", { month: "short" }).format();
+  const da = new Intl.DateTimeFormat("en", { day: "2-digit" }).format();
+  const currentDate = `${da}-${mo}-${ye}`;
+
+  date.innerText = currentDate;
 }
