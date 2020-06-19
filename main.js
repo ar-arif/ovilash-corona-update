@@ -59,9 +59,9 @@ function afterThat(data) {
 
   // Date
   let date = document.getElementById("date");
-  const ye = new Intl.DateTimeFormat("en", { year: "numeric" }).format();
-  const mo = new Intl.DateTimeFormat("en", { month: "short" }).format();
   const da = new Intl.DateTimeFormat("en", { day: "2-digit" }).format();
-  const currentDate = `${da}-${mo}-${ye}`;
+  const mo = new Intl.DateTimeFormat("en", { month: "2-digit" }).format();
+  const ye = new Intl.DateTimeFormat("en", { year: "numeric" }).format();
+  const currentDate = `${da}/${mo}/${ye}`;
   date.innerText = currentDate;
 }
