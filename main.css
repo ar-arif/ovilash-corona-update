@@ -7,10 +7,6 @@ html {
   width: 360px;
 }
 
-.header {
-  min-height: 75px;
-}
-
 .poster-image {
   position: relative;
 }
