@@ -22,7 +22,7 @@ html {
 .cases-24,
 .deaths-24,
 .recovered-24 {
-  left: 29px;
+  left: 50px;
   font-size: 38px;
 }
 
@@ -32,6 +32,7 @@ html {
 
 .deaths-24 {
   top: 357px;
+  left: 71px !important;
 }
 
 .recovered-24 {
@@ -41,7 +42,7 @@ html {
 .Total-cases,
 .Total-deaths,
 .Total-recovered {
-  left: 217px;
+  left: 229px;
   font-size: 31px;
 }
 
@@ -51,6 +52,7 @@ html {
 
 .Total-deaths {
   top: 358px;
+  left: 234px !important;
 }
 
 .Total-recovered {
