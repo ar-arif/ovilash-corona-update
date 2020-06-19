@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 75px;
+}
+
+.poster-image{
+    position: relative;
+}
+
+.font-style{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.cases-24, .deaths-24, .recovered-24{
+    left: 29px;
+    font-size: 38px;
+}
+
+.cases-24{
+    top: 309px;
+    font-size: 38px;
+}
+
+.deaths-24{
+    top: 432px;
+    font-size: 38px;
+}
+
+.recovered-24{
+    top: 550px;
+    font-size: 38px;
+}
