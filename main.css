@@ -1,12 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  max-width: 360px;
 }
-
-html {
-  width: 360px;
-}
-
 
 .poster-image {
   position: relative;
@@ -42,24 +38,25 @@ html {
 .Total-cases,
 .Total-deaths,
 .Total-recovered {
-  left: 229px;
+  left: 223px;
   font-size: 31px;
 }
 
 .Total-cases {
-  top: 260px;
+  top: 263px;
+  left: 213px !important;
 }
 
 .Total-deaths {
-  top: 358px;
+  top: 363px;
   left: 234px !important;
 }
 
 .Total-recovered {
-  top: 453px;
+  top: 463px;
 }
 
-.date{
+.date {
   font-size: 31px;
   top: 91px;
   left: 107px;
