@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ovilash Corona Update</title>
 
+    <!-- main.js -->
     <link rel="stylesheet" href="main.css" />
   </head>
 
@@ -12,17 +13,39 @@
     <div>
       <img class="poster-image" src="update.jpg" alt="" srcset="" />
 
-      <div class="cases-24 font-style" id="cases-24">000000</div>
-      <div class="deaths-24 font-style" id="deaths-24">000000</div>
-      <div class="recovered-24 font-style" id="recovered-24">000000</div>
+      <div class="cases-24 font-style counter" id="cases-24">000000</div>
+      <div class="deaths-24 font-style counter" id="deaths-24">000000</div>
+      <div class="recovered-24 font-style counter" id="recovered-24">
+        000000
+      </div>
 
-      <div class="Total-cases font-style" id="Total-cases">000000</div>
-      <div class="Total-deaths font-style" id="Total-deaths">000000</div>
-      <div class="Total-recovered font-style" id="Total-recovered">000000</div>
+      <div class="Total-cases font-style counter" id="Total-cases">000000</div>
+      <div class="Total-deaths font-style counter" id="Total-deaths">
+        000000
+      </div>
+      <div class="Total-recovered font-style counter" id="Total-recovered">
+        000000
+      </div>
 
       <div class="date font-style" id="date">00-XY-0000</div>
+      
+      
     </div>
 
+    <!-- counter test -->
+    <!-- <span class="test font-style counter">12345678</span> -->
+
+    <!-- for counter plugin -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script>
+      $(".counter").counterUp({
+        delay: 10,
+        time: 2000,
+      });
+    </script>
+
+    <!-- main.js -->
     <script src="main.js"></script>
   </body>
 </html>
