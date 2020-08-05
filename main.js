@@ -7,10 +7,9 @@ fetch("https://corona-api.herokuapp.com/")
       afterThat(data);
     });
 
-
 // main code in this function
 function afterThat(data) {
-  // console.log(data);
+  console.log(data);
 
   const bd = data.BD
 
